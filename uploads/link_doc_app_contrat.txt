@@ -1,0 +1,1 @@
+https://www.docs4dev.com/apidocs/en/spring/5.2.12.RELEASE/org/springframework/mail/javamail/MimeMessageHelper.html link envoi mail

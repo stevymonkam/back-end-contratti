@@ -1,0 +1,86 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0200
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN=Giovanni Scardovi:mailto:giovanni.scardovi@dedagroup.it
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Stefano Ca
+ ppelli:mailto:stefano.cappelli@dedagroup.it
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Marco Volp
+ e:mailto:Marco.Volpe@dedagroup.it
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=stevy.monk
+ am@yahoo.fr:mailto:stevy.monkam@yahoo.fr
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=gbennardo@
+ adhocminds.com:mailto:gbennardo@adhocminds.com
+DESCRIPTION;LANGUAGE=en-US:Buonasera Stevy\,\npianifico nuovamente il collo
+ quio per domani.\nPuoi gentilmente confermarmi la ricezione dell'invito ?\
+ n\ngrazie\nGiovanni Scardovi\nLe informazioni contenute in questo messaggi
+ o di posta elettronica sono riservate e confidenziali e ne e' vietata la d
+ iffusione in qualsiasi modo o forma. Qualora Lei non fosse la persona dest
+ inataria del presente messaggio\, La invitiamo a non diffonderlo e ad elim
+ inarlo\, dandone gentilmente comunicazione al mittente.\n\nThe information
+  included in this e-mail and any attachments are confidential and may also
+  be privileged. If you are not the correct recipient\, you are kindly requ
+ ested to notify the sender immediately\, to cancel it and not to disclose 
+ the contents to any other person.\n
+UID:040000008200E00074C5B7101A82E0080000000099C17E4B183FD701000000000000000
+ 010000000514B9AED51283A4E8D0A58F7B61C860D
+SUMMARY;LANGUAGE=en-US:Colloquio JAVA Stevy Monkam.
+DTSTART;TZID=W. Europe Standard Time:20210507T173000
+DTEND;TZID=W. Europe Standard Time:20210507T181500
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20210506T154940Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:6
+LOCATION;LANGUAGE=en-US:
+X-MICROSOFT-CDO-APPT-SEQUENCE:6
+X-MICROSOFT-CDO-OWNERAPPTID:2119505561
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_NzdhMmU5NGMtMjZiNS00NmVkLWFkMzctNzU5ODRiOGFhZDNj%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%22bbf156d4-33fa-4fee-86f6-2cfcb1359ef0%22%2c%22O
+ id%22%3a%2222f54242-16f2-4d25-a253-c43e5d848a5e%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/bbf156d4-33fa-4fee-86f6-2cfcb1359ef0/22f54242-16f2-4d25-a253-c
+ 43e5d848a5e/19_meeting_NzdhMmU5NGMtMjZiNS00NmVkLWFkMzctNzU5ODRiOGFhZDNj@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_NzdhMmU5NGMtMjZiNS00NmV
+ kLWFkMzctNzU5ODRiOGFhZDNj@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0}
+X-MICROSOFT-ONLINEMEETINGCONFLINK:conf:sip:Giovanni.Scardovi@dedagroup.it\;
+ gruu\;opaque=app:conf:focus:id:teams:2:0!19:meeting_NzdhMmU5NGMtMjZiNS00Nm
+ VkLWFkMzctNzU5ODRiOGFhZDNj-thread.v2!22f5424216f24d25a253c43e5d848a5e!bbf1
+ 56d433fa4fee86f62cfcb1359ef0
+X-MICROSOFT-ONLINEMEETINGTOLLNUMBER:+39 02 0069 9868
+X-MICROSOFT-ONLINEMEETINGCONFERENCEID:157348877
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONS:[]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

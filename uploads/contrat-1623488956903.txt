@@ -1,0 +1,20 @@
+explication des differente fonctionalite
+ -file (invia? esporta? stampa? )
+-impostazione (utenze contrati?)
+
+-nouva 
+-segnalazione(quest ce que sa va faire?)
+-interogazione?
+
+tipo (
+
+-elimina documenti?
+quand on charge un contra il peut avoir plusieur allegato?avant l envoi?
+bouton +? a koi sa sert quel est le nbre de prix max kon puisse ajouter
+explication claire (tipo doc ? note? uploy? sfoglia) quand tu clike sur sfoglia sa part dabor dans le tableau et apres pour etre enregistre tu clike sur salva? donc la tu peut encr avoir la possibilite d eliminer(sfogli)
+bien expliker documenti allegati
+
+-elimina?
+pourkoi autan de champ sur interogation? les champ coresponde a koi? au different colone du tableau?
+explication de mail les choses qui sont a coter?
+impostazioni?

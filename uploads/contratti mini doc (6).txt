@@ -1,0 +1,131 @@
+** Login
+  method : POST
+  url : http://api.contratti.immobiliz.com/api/auth/login
+  body : {"email":String,"password":String}
+-----------------------------------------------------------------------------------
+** Creation de contrat
+  method : POST
+  url : http://api.contratti.immobiliz.com/api/auth/contrat/create
+  headers: {
+    'Authorization': 'Bearer '+token,
+    'Content-Type': 'application/json'
+  },
+  body : {
+    "owner":string,
+    "sede":string,
+    "azienda":string,
+    "id_user": int,
+    "codice":string,
+    "tipo_importo":string,
+    "fornitore":string,
+    "iva":string,
+    "lop_cliente":string,
+    "tipologia_contratto":string,
+    "stato_contratto":string,
+    "data_validata":date,
+    "data_rinnovo":date,
+    "periodo":string,
+    "preavviso":string,
+    "data_scadenza":date,
+    "rinnovo_automatico":0,
+    "data_disdetta":date,
+    "note":string,
+    "mail_preavviso":1,
+    "mail_contratto":1
+ }
+
+-----------------------------------------------------------------------------
+
+** Creation de contrat
+  method : GET
+  url : http://api.contratti.immobiliz.com/api/auth/contrat
+  headers: {
+    'Authorization': 'Bearer '+token,
+    'Content-Type': 'application/json'
+  },
+-----------------------------------------------------------------------------
+** upload fichier contrat
+  method : POST
+  url : http://api.contratti.immobiliz.com/api/auth/contrat/upload
+  headers: {
+    'Authorization': 'Bearer '+token,
+    'Content-Type': 'application/json'
+  },
+	
+  body : {
+    "id_contrat":string,
+    "documenti":File,
+    "note":string,
+    "tipo_doc": string
+ }
+------------------------------------------------------------------------------
+** update contrat
+  method : POST
+  url : http://api.contratti.immobiliz.com/api/auth/contrat/update
+  headers: {
+    'Authorization': 'Bearer '+token,
+    'Content-Type': 'application/json'
+  },
+  body : {
+    "owner":string,
+    "sede":string,
+    "azienda":string,
+    "codice":string,
+    "tipo_importo":string,
+    "fornitore":string,
+    "iva":string,
+    "lop_cliente":string,
+    "tipologia_contratto":string,
+    "stato_contratto":string,
+    "data_validata":date,
+    "data_rinnovo":date,
+    "periodo":string,
+    "preavviso":string,
+    "data_scadenza":date,
+    "rinnovo_automatico":0,
+    "data_disdetta":date,
+    "note":string,
+    "mail_preavviso":int,
+    "mail_contratto":int,
+    "id_contrat":1,
+    "id_user": int
+ }
+
+---------------------------------------------------------------------------------
+
+** modifier password
+
+  method : POST
+  url : http://api.contratti.immobiliz.com/api/auth/resetpassword
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body : {
+    "username":string,
+    "password":string,
+    "password_confirmation":string
+  }
+
+---------------------------------------------------------------------------------
+
+** signalisation
+
+  method : GET
+  url : http://api.contratti.immobiliz.com/api/auth/contrat/signalisation/{id_contrat}
+  headers: {
+    'Content-Type': 'application/json'
+  }
+
+---------------------------------------------------------------------------------
+
+** interrogation
+
+  method : POST
+  url : http://api.contratti.immobiliz.com/api/auth/contrat/interrogation/{tipo}
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body : {
+    "de":date,
+    "a":date
+  }
